@@ -353,7 +353,7 @@ nav:hover {
   left: 0;
   top: 0;
   z-index: 999;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -364,5 +364,9 @@ nav:hover {
   background: white;
   border-radius: 6px;
   padding: 20px;
+}
+
+.window:target {
+  display: flex;
 }
 /* modal end */
